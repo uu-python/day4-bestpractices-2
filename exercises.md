@@ -10,7 +10,7 @@ and improve the current way of timing the different implementations)
 Which part of the Python code is slowing things down? (Again, use the profiling skills you learned earlier)
 
 #### d. How much can you improve the performance of ```rbf.py``` using Cython? 
-(Use the lecture notes and follow the instructions from the comments)
+Use the lecture notes and follow the instructions from the comments
 
 ## 2. MPI parallelization
 
