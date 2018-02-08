@@ -46,4 +46,6 @@ You can run the tests using the ```py.test``` command. Note that the name of you
 #### b. Create a documenation html page for the ```simple_math.py``` module using Sphinx.
 Follow the instructions from the lecture notes.
 
+
+********************************************************************************************************
 <a name="myfootnote1">1</a>: Taken from [http://nealhughes.net/cython1/](http://nealhughes.net/cython1/)
