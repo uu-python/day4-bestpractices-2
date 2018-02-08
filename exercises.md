@@ -33,7 +33,6 @@ This should also give you an idea about the number of parallel processes your co
 #### a. Install pytest using e.g.
 ```
 pip install pytest --user
-
 ```
 
 #### b. Write a module ```test_simple_math.py``` which tests the correctness of the math operations inside ```simple_math.py```.
