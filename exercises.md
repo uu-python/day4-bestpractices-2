@@ -15,7 +15,9 @@ Use the lecture notes and follow the instructions from the comments
 ## 2. MPI parallelization
 
 #### a. Write a simple MPI script ```mpi_ranks.py``` that prints the rank of the different processes when running 
-```mpirun python mpi_ranks.py```
+```
+mpirun python mpi_ranks.py
+```
 This should also give you an idea about the number of parallel processes your computer is able to run.
 
 #### b. Write a small script ```mpi_sum.py``` which calculates the sum over all ranks and prints the result from the process with rank 0.
