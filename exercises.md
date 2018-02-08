@@ -12,8 +12,6 @@ Which part of the Python code is slowing things down? (Again, use the profiling 
 #### d. How much can you improve the performance of ```rbf.py``` using Cython? 
 (Use the lecture notes and follow the instructions from the comments)
 
-<a name="myfootnote1">1</a>: Taken from [http://nealhughes.net/cython1/](http://nealhughes.net/cython1/)
-
 ## 2. MPI parallelization
 
 #### a. Write a simple MPI script ```mpi_ranks.py``` that prints the rank of the different processes when running 
@@ -35,7 +33,6 @@ This should also give you an idea about the number of parallel processes your co
 #### a. Install pytest using e.g.
 ```
 pip install pytest --user
-
 ```
 
 #### b. Write a module ```test_simple_math.py``` which tests the correctness of the math operations inside ```simple_math.py```.
@@ -47,3 +44,7 @@ You can run the tests using the ```py.test``` command. Note that the name of you
 
 #### b. Create a documenation html page for the ```simple_math.py``` module using Sphinx.
 Follow the instructions from the lecture notes.
+
+
+********************************************************************************************************
+<a name="myfootnote1">1</a>: Taken from [http://nealhughes.net/cython1/](http://nealhughes.net/cython1/)
