@@ -2,7 +2,7 @@
 
 #### a. As a simple start, try to reproduce the ```primes.py``` Cythonize example from the lecture notes and familiarize yourself on how to use Cython
 
-#### b. Take a look at the example ```rbf.py```<sup>[1](#myfootnote1)</sup> which uses Gaussian Radial Basis Functions (RBFs) as an approximation scheme some given data. 
+#### b. Take a look at the example ```rbf.py```<sup>[1](#myfootnote1)</sup> which uses Gaussian Radial Basis Functions (RBFs) as an approximation scheme for some given data. 
 How much speed up do you gain by using existing Python packages like Scipy? (Feel free to use your knowledge about performance testing 
 and improve the current way of timing the different implementations)
 
