@@ -7,7 +7,7 @@ How much speed up do you gain by using existing Python packages like Scipy? (Fee
 and improve the current way of timing the different implementations)
 
 #### c. In the above example, why is Scipy faster than the naive Python implementation? 
-Which part of the Python code is slowing things down? (Again, use the profiling skills you learned yesterday)
+Which part of the Python code is slowing things down? (Again, use the profiling skills you learned earlier)
 
 #### d. How much can you improve the performance of ```rbf.py``` using Cython? 
 (Use the lecture notes and follow the instructions from the comments)
