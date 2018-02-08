@@ -3,6 +3,9 @@ A collection of simple math operations
 """
 
 def simple_add(a,b):
+    """
+    Some useful docstring
+    """
     return a+b
 
 def simple_sub(a,b):
