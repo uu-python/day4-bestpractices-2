@@ -18,7 +18,6 @@ Use the lecture notes and follow the instructions from the comments
 ```
 mpirun python mpi_ranks.py
 ```
-This should also give you an idea about the number of parallel processes your computer is able to run.
 
 #### b. Write a small script ```mpi_sum.py``` which calculates the sum over all ranks and prints the result from the process with rank 0.
 Hint: Have a look at the tutorials from the mpi4py documentation page: [https://mpi4py.scipy.org/docs/usrman/tutorial.html](https://mpi4py.scipy.org/docs/usrman/tutorial.html)
