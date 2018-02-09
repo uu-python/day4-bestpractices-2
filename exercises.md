@@ -1,3 +1,6 @@
+# Exercises for Day 4
+Cython, MPI parallelization, plotting with matplotlib, testing and documentation of code
+
 ## 1. Speed optimization using Cython
 
 #### a. As a simple start, try to reproduce the ```primes.py``` Cythonize example from the lecture notes and familiarize yourself on how to use Cython
