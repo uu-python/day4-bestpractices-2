@@ -17,9 +17,7 @@ It is mostly the for loops which are slowing down regular Python code.
 ### d. How much can you improve the performance of ```rbf.py``` using Cython? 
 Use the lecture notes and follow the instructions from the comments
 
-There is about a 80-fold increase in speed when using Cython. The performance can be even further improved by playing around with some C tricks (compare to ```rbf_solution.py```, ```fastloop.pyx``` and ```setup.py```). 
-
-The procedure for using Cython is to first compile 
+There is about a 80-fold increase in speed when using Cython. The performance can be even further improved by playing around with some C tricks (compare to ```rbf_solution.py```, ```fastloop.pyx``` and ```setup.py```. The procedure for using Cython is to first compile 
 ```
 python setup.py build_ext --inplace
 ```
