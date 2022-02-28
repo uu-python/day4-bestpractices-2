@@ -3,6 +3,7 @@ import numpy as np
 from scipy.interpolate import Rbf
 
 # Naive python implementation of a Radial Basis Function (RBF) approximation scheme
+#@profile
 def rbf_network(X, beta, theta):
 
     N = X.shape[0]
@@ -20,6 +21,7 @@ def rbf_network(X, beta, theta):
     return Y
 
 # Scipy implementation of a Radial Basis Function (RBF) approximation scheme
+#@profile
 def rbf_scipy(X, beta):
 
     N = X.shape[0]
@@ -35,8 +37,10 @@ def rbf_scipy(X, beta):
 # 
 # TODO: Write the Cython implementation in a separate fastloop.pyx file, compile and import it here
 # 
-# from fastloop import rbf_network_cython
-
+from fastloop import rbf_network_cython
+#@profile
+def rbf_cython(X, beta, theta):
+    return fastloop.rbf_cython(X, beta, theta)
 
 # Make up some data
 D = 5
@@ -57,9 +61,9 @@ rbf_scipy(X, beta)
 print("Scipy: ", time.time() - t0)
 
 # Testing the performance of Cython
-#t0 = time.time()
-#rbf_network_cython(X, beta, theta)
-#print("Cython: ", time.time() - t0)
+t0 = time.time()
+rbf_network_cython(X, beta, theta)
+print("Cython: ", time.time() - t0)
 
 
 
