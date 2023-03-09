@@ -14,7 +14,7 @@ You can run the tests using the ```py.test``` command. Note that the name of you
 
 ## 2. Documenting code
 
-#### a. Write some meaningful docstrings for the ```simple_math.py``` module, e.g. following the [numpy_doc](https://numpydoc.readthedocs.io/en/latest/format.html#docstring-standard) standard.
+#### a. Write some meaningful docstrings for the ```simple_math.py``` module, e.g. following the [numpy_doc](https://numpydoc.readthedocs.io/en/latest/format.html) standard.
 
 #### b. Create a documenation html page for the ```simple_math.py``` module using Sphinx.
 Follow the instructions from the lecture notes.
